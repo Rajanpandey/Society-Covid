@@ -1,5 +1,4 @@
 <?php
-include('config.php');
 include('tenant.php');
 include('header.php');
 require('connect.php');
@@ -10,6 +9,7 @@ updateViewCount('home');
 $ip = getIpAddress();
 $today = new DateTime();
 
+$config = include 'config.php';
 $availableFeatures = $config[$society];
 
 $query = "SELECT * FROM cases WHERE t_id = '$t_id' ORDER BY date";

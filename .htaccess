@@ -2,4 +2,5 @@ RewriteEngine On
 RewriteRule ^admin.php$ - [L]
 RewriteRule ^logout.php$ - [L]
 RewriteRule ^login.php$ - [L]
+RewriteRule ^onboard.php$ - [L]
 RewriteRule !.(gif|jpg|png|css|js)$ dynamicUrl.php

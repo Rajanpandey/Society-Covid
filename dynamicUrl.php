@@ -1,6 +1,7 @@
 <?php
 require('connect.php');
-include('config.php');
+
+$config = include 'config.php';
 $pages = $config['All'];
 
 $url = strip_tags($_SERVER['REQUEST_URI']);

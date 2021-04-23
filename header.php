@@ -1,7 +1,7 @@
 <?php
-    include('config.php');
     include('tenant.php');
 
+    $config = include 'config.php';
     $pages = $config['All'];
     $availableFeatures = $config[$society];
 ?>
