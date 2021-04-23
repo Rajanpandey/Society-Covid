@@ -20,10 +20,6 @@
   ),
   'CostaRica' =>
   array (
-    2 => 'vaccine.php',
-  ),
-  'CostaRicas' =>
-  array (
     0 => 'vaccine.php',
   ),
 );
