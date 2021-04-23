@@ -1,0 +1,13 @@
+.new {
+    height: 45px;
+    position: relative;
+    left: 24px;
+    top: -13px;
+}
+
+.update {
+    height: 32px;
+    position: relative;
+    left: 31px;
+    top: -24px;
+}
