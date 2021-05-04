@@ -18,14 +18,14 @@ updateViewCount('lockdown');
             <div class="col-12">
                 <br/>
                 <a href="home.php" class="btn btn-danger">Return back to Home</a>
-                <h3 class="mt-4">Pune Break The Chain (Janta Curfew) is applicable from 14th to 28th April:</h3>
+                <h3 class="mt-4">Pune Break The Chain (Janta Curfew) is applicable from 14th to <s>28th April</s> <span class="bg-info">13th May (extended by 15 days)</span>:</h3>
                 <h5><span class="text-danger">Note: </span>New updates are highlighted with the <span class="bg-info">blue color.</span></h5>
                 <div class="row pb-5">
                     <div class="col-12 col-xl-6">
                         <h3 class="mt-4">Curfew (barring essential servies):</h3>
                         <ul class="list-group">
-                            <li class="list-group-item bg-info"><b>On weekdays</b>, curfew will be imposed from <b>7am to 11am</b> and Section 144 is imposed.</li>
-                            <li class="list-group-item bg-info"><b>On weekends</b>, curfew will be imposed from <b>for the whole day</b>.</li>
+                            <li class="list-group-item bg-info"><b>On weekdays</b>, curfew will be imposed from <b>11am to 7am next day</b>. Ie. people, stores and services allowed only between 7am-11am).</li>
+                            <li class="list-group-item bg-info"><b>On weekends</b>, curfew will be imposed for the <b>whole day</b>.</li>
                             <li class="list-group-item"><b>Complete ban</b> on social, political, and religious meetings.</li>
                             <li class="list-group-item"><b>Private Transport</b> will be working only during non-curfew hours.</li>
                             <li class="list-group-item"><b>Auto Rickshaw</b> – Driver + 2 passengers only.</li>

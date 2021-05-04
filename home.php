@@ -83,12 +83,8 @@ mysqli_close($conn);
                     <div class="col-4"><center><a href="vaccine.php" class="btn btn-warning btn-block"><?php echo $city; ?> - Vaccine Status</a></center></div>
                     <?php
                         }
-                        if (in_array('lockdown.php', $availableFeatures)) {
                     ?>
-                    <div class="col-4 pb-4"><center><a href="lockdown.php" class="btn btn-success btn-block">Info - Break the Chain</a></center></div>
-                    <?php
-                        }
-                    ?>
+                    <div class="col-4"><center><a href="https://vaccinenotifier.azurewebsites.net/" class="btn btn-success btn-block">Vaccine Avail. Notifier</a></center></div>
                     <div class="col-4"><center><a href="society.php" class="btn btn-danger btn-block"><?php echo $society; ?> - Covid Spread</a></center></div>
                     <?php
                         if (in_array('city.php', $availableFeatures)) {
@@ -100,7 +96,7 @@ mysqli_close($conn);
                     <?php
                         if ($city == 'Pune') {
                     ?>
-                        <div class="col-4"><center><a href="https://covidpune.com" class="btn btn-secondary btn-block"><?php echo $city; ?> - Find Hospital Beds</a></center></div>
+                        <div class="col-4"><center><a href="https://covidpune.com" class="btn btn-success btn-block"><?php echo $city; ?> - Covid Help Leads</a></center></div>
                     <?php
                         }
                     ?>
