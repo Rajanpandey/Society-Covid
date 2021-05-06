@@ -19,7 +19,7 @@ function updateViewCount($pageName) {
     include('tenant.php');
 
     $today = date("Y-m-d");
-    $ip = 'getIpAddress()';
+    $ip = getIpAddress();
     $t_id = $_SESSION['tenant']['t_id'];
 
     if(mysqli_num_rows(mysqli_query($conn, "SELECT * FROM views WHERE page='$pageName' AND date='$today' AND ip='$ip'"))) {
