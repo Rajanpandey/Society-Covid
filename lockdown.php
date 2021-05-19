@@ -18,7 +18,7 @@ updateViewCount('lockdown');
             <div class="col-12">
                 <br/>
                 <a href="home.php" class="btn btn-danger">Return back to Home</a>
-                <h3 class="mt-4">Pune Break The Chain (Janta Curfew) is applicable from 14th to <s>28th April</s> <span class="bg-info">13th May (extended by 15 days)</span>:</h3>
+                <h3 class="mt-4">Pune Break The Chain (Janta Curfew) is applicable till <span class="bg-info">31st May</span>:</h3>
                 <h5><span class="text-danger">Note: </span>New updates are highlighted with the <span class="bg-info">blue color.</span></h5>
                 <div class="row pb-5">
                     <div class="col-12 col-xl-6">
@@ -55,7 +55,6 @@ updateViewCount('lockdown');
                     <div class="col-12 col-xl-6">
                         <h3 class="mt-4">What is permitted?</h3>
                         <ul class="list-group">
-                            <li class="list-group-item bg-info"><b>Road side vendors</b> to function from 7am to 6pm.</li>
                             <li class="list-group-item">Milk, vegetable, fruit supply, newspaper distribution, establishments providing essential services and their staff, people going for vaccination and their vehicles, and vehicles transporting employees for industrial work are <b>exempted from night travel restrictions</b>.</li>
                             <li class="list-group-item">PMPML buses only for emergency services.</li>
                             <li class="list-group-item"><b>Online food delivery from 7am till 6pm</b>.</li>

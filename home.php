@@ -46,15 +46,15 @@ while($row = mysqli_fetch_assoc($result)) {
     $plasmaArr[] = $row;
 }
 
-// if(isset($_POST['saveFeedback'])) {
-//     $feedback = mysqli_real_escape_string($conn, trim($_POST['feedback']));
-//     $query = "INSERT INTO feedback (feedback, t_id) VALUES ('$feedback', '$t_id')";
-//     if(mysqli_query($conn, $query)) {
-//         echo "<script type=\"text/javascript\"> alert('Thank you for the feedback!'); location.href = 'home.php'; </script>";
-//     } else {
-//         echo "Error: " . $query . "<br>" . mysqli_error($conn);
-//     }
-// }
+if(isset($_POST['saveFeedback'])) {
+    $feedback = mysqli_real_escape_string($conn, trim($_POST['feedback']));
+    $query = "INSERT INTO feedback (feedback, t_id) VALUES ('$feedback', '$t_id')";
+    if(mysqli_query($conn, $query)) {
+        echo "<script type=\"text/javascript\"> alert('Thank you for the feedback!'); location.href = 'home.php'; </script>";
+    } else {
+        echo "Error: " . $query . "<br>" . mysqli_error($conn);
+    }
+}
 
 mysqli_close($conn);
 ?>
@@ -70,7 +70,7 @@ mysqli_close($conn);
 <body>
     <div class="container-fluid pt-3">
         <div class="row">
-            <div class="col-6">
+            <div class="col-12">
                 <div class="row">
                     <?php
                         if (in_array('map.php', $availableFeatures)) {
@@ -102,7 +102,7 @@ mysqli_close($conn);
                     ?>
                 </div>
             </div>
-            <div class="col-6">
+            <!-- <div class="col-6">
                 <table class="table table-bordered table-hover table-sm" id="myTable">
                     <thead class="thead-dark">
                         <tr>
@@ -132,7 +132,7 @@ mysqli_close($conn);
                     </tbody>
                 </table>
                 <center class="d-grid gap-2"><a href="plasma.php" class="btn btn-danger btn-block">Donate Plasma</a></center>
-            </div>
+            </div> -->
             <div class="col-12 table-responsive pt-5">
                 <center><h4>Active Cases in <?php echo $society; ?>: <span class="text-danger"><?php echo $activeCases ?></span>/<?php echo $totalCases ?></h4>
                 <p><b class="text-danger">Note:</b> These are the reported cases that we know. As most of the cases are asymptomatic, there can be x6-x10 more cases.</p></center>

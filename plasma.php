@@ -80,7 +80,7 @@ mysqli_close($conn);
                         </form>
                         <br/>
                         <hr/>
-                        <h4>Plasma Donor Requests:</h4>
+                        <h4>Plasma Donor Requests (within last 3 weeks):</h4>
                         <table class="table table-bordered table-hover mt-4" id="myTable">
                             <thead class="thead-dark">
                                 <tr>
@@ -95,7 +95,8 @@ mysqli_close($conn);
                             <?php
                                 $k = 0;
                                 for ($i=count($plasmaArr)-1; $i>=0; $i=$i-1) {
-                                    if ($plasmaArr[$i]['type'] == "request") {
+                                    $daysPassed = (new DateTime($today))->diff(new DateTime($plasmaArr[$i]['date']))->format('%a');
+                                    if ($plasmaArr[$i]['type'] == "request" && $daysPassed < 21) {
                                         $k += 1;
                             ?>
                                         <tr class="table-danger">
