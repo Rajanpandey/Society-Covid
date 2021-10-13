@@ -18,14 +18,13 @@ updateViewCount('lockdown');
             <div class="col-12">
                 <br/>
                 <a href="home.php" class="btn btn-danger">Return back to Home</a>
-                <h3 class="mt-4">Pune Break The Chain (Janta Curfew) is applicable till <span class="bg-info">31st May</span>:</h3>
-                <h5><span class="text-danger">Note: </span>New updates are highlighted with the <span class="bg-info">blue color.</span></h5>
+                <h3 class="mt-4">Pune Break The Chain (Janta Curfew):</h3>
+                <h5><span class="text-danger">Note: </span>New updates are highlighted with the <span class="bg-warning">yellow color.</span></h5>
                 <div class="row pb-5">
                     <div class="col-12 col-xl-6">
                         <h3 class="mt-4">Curfew (barring essential servies):</h3>
                         <ul class="list-group">
-                            <li class="list-group-item bg-info"><b>On weekdays</b>, curfew will be imposed from <b>11am to 7am next day</b>. Ie. people, stores and services allowed only between 7am-11am).</li>
-                            <li class="list-group-item bg-info"><b>On weekends</b>, curfew will be imposed for the <b>whole day</b>.</li>
+                            <li class="list-group-item bg-warning"><b>Everyday</b>, curfew will be imposed from <b>10:30pm to 6am next day</b>. Ie. people, stores and services <b>allowed only between 6am-10:30pm</b>.</li>
                             <li class="list-group-item"><b>Complete ban</b> on social, political, and religious meetings.</li>
                             <li class="list-group-item"><b>Private Transport</b> will be working only during non-curfew hours.</li>
                             <li class="list-group-item"><b>Auto Rickshaw</b> – Driver + 2 passengers only.</li>
@@ -43,13 +42,13 @@ updateViewCount('lockdown');
                         </ul>
                     </div>
                     <div class="col-12 col-xl-6">
-                        <h3 class="mt-4">Shutters Down</h3>
+                        <h3 class="mt-4">Open at limited capacity</h3>
                         <ul class="list-group">
-                            <li class="list-group-item">Restaurants (dine-in), bars, food courts, malls to remain shut till further orders.</li>
-                            <li class="list-group-item">Barber shops, salons, beauty parlors, spas to remain shut till further orders.</li>
-                            <li class="list-group-item">Cinemas, drama theatres, amusement parks, water parks, gardens, arcades, video game parlours to remain shut till further orders.</li>
+                            <li class="list-group-item">Restaurants (dine-in), bars, food courts, malls.</li>
+                            <li class="list-group-item">Barber shops, salons, beauty parlors, spas.</li>
+                            <li class="list-group-item">Cinemas, drama theatres, amusement parks, water parks, gardens, arcades, video game parlours open at 50% capacity.</li>
                             <li class="list-group-item">Clubs, swimming pools, sports complexes, gyms to remain shut till further orders.</li>
-                            <li class="list-group-item">Schools and colleges shut till <b>April 30</b>, all coaching classes, excluding MPSC, UPSC study centres with 50% capacity, to remain shut.</li>
+                            <li class="list-group-item">Schools and colleges, all coaching classes, excluding MPSC, UPSC study centres with 50% capacity.</li>
                         </ul>
                     </div>
                     <div class="col-12 col-xl-6">
@@ -57,7 +56,7 @@ updateViewCount('lockdown');
                         <ul class="list-group">
                             <li class="list-group-item">Milk, vegetable, fruit supply, newspaper distribution, establishments providing essential services and their staff, people going for vaccination and their vehicles, and vehicles transporting employees for industrial work are <b>exempted from night travel restrictions</b>.</li>
                             <li class="list-group-item">PMPML buses only for emergency services.</li>
-                            <li class="list-group-item"><b>Online food delivery from 7am till 6pm</b>.</li>
+                            <li class="list-group-item"><b>Online food delivery</b>.</li>
                             <li class="list-group-item">Marriages allowed with 50 people.</li>
                             <li class="list-group-item">Funerals with maximum of 20 people.</li>
                         </ul>

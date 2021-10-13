@@ -1,11 +1,14 @@
 function getCityData() {
-    var Httpreq = new XMLHttpRequest();
-    Httpreq.open("GET", 'https://api.covid19india.org/v4/min/timeseries-MH.min.json', false);
-    Httpreq.send(null);
-    return Httpreq.responseText;
+    return JSON.parse($.ajax({
+        async: false,
+        url: 'fetchCasesInCity.php',
+        type: 'GET',
+        dataType: 'JSON',
+        success:function(response) {}
+    }).responseText);
 }
 
-var cityData = JSON.parse(getCityData())['MH']['districts']['Pune']['dates'];
+var cityData = getCityData()['MH']['districts']['Pune']['dates'];
 var formattedData = [];
 
 keys = Object.keys(cityData);

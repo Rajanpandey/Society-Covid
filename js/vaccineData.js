@@ -12,6 +12,9 @@ function getVaccineData(city) {
 var city = document.getElementById("hiddenCity").value;
 var vaccineData = getVaccineData(city);
 var formattedData = [];
+$.getJSON("population.json", function(json) {
+    console.log(json); // this will show the info it in firebug console
+});
 
 for (var i = 6; i < vaccineData[0].length; i += 10) {
     if (vaccineData[0][i] != "" && vaccineData[1][i] != "") {
@@ -149,7 +152,7 @@ am4core.ready(function() {
     var chartMax = 100;
 
     var data = {
-      score: firstDoseAdministered / 74000,
+      score: firstDoseAdministered / 94300,
       gradingData: [
         {
           title: "Less than 25%",
@@ -304,7 +307,7 @@ am4core.ready(function() {
     var chartMax = 100;
 
     var data = {
-      score: SecondDoseAdministered / 74000,
+      score: SecondDoseAdministered / 94300,
       gradingData: [
         {
           title: "Less than 25%",
