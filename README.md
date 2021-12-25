@@ -2,6 +2,9 @@
 
 A multitenant architecture application to keep track of live covid cases in the society/community, with support for charts/graphs, platform to request/donate plasma, etc.
 
+# Demonstration link
+Youtube link: https://www.youtube.com/watch?v=N181T_VszhE
+
 # Website link
 I have hosted the site on Azure on my own subscription: https://covid.azurewebsites.net/
 
